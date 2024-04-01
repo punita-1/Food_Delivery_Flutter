@@ -1,6 +1,6 @@
 // import 'dart:html';
 
-import 'package:custom_map_markers/custom_map_markers.dart';
+// import 'package:custom_map_markers/custom_map_markers.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -22,7 +22,7 @@ class _ChangeAddressViewState extends State<ChangeAddressView> {
   //   LatLng(37.42796133580664, -122.085749655962),
   // ];
 
-  late List<MarkerData> _customMarkers;
+  // late List<MarkerData> _customMarkers;
 
   // static const CameraPosition _kLake = CameraPosition(
   //     bearing: 192.8334901395799,
@@ -33,12 +33,12 @@ class _ChangeAddressViewState extends State<ChangeAddressView> {
   @override
   void initState() {
     super.initState();
-    _customMarkers = [
+    // _customMarkers = [
       // MarkerData(
       //     marker:
           // Marker(markerId: const MarkerId('id-1'), position: locations[0]),
           // child: _customMarker('Everywhere\nis a Widgets', Colors.blue)),
-    ];
+    // ];
   }
 
   _customMarker(String symbol, Color color) {

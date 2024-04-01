@@ -192,7 +192,7 @@ class _MoreViewState extends State<MoreView> {
                                     Container(
                                       padding: const EdgeInsets.all(4),
                                       decoration: BoxDecoration(
-                                          color: Colors.red,
+                                          color: const Color(0xFF7B68EE),
                                           borderRadius:
                                           BorderRadius.circular(12.5)),
                                       alignment: Alignment.center,
